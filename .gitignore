@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 
-/app/src/main/java/com/example/foody/Constants.kt
+/app/src/main/java/com/example/foody/utils/Constants.kt
