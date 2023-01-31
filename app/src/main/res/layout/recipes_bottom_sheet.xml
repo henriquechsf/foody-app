@@ -43,30 +43,35 @@
                 android:layout_height="match_parent"
                 app:checkedChip="@+id/main_course_chip"
                 app:selectionRequired="true"
-                app:singleLine="true">
+                app:singleLine="true"
+                app:singleSelection="true">
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/main_course_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Main Course" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/side_dish_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Side Dish" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/dessert_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Dessert" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/appetizer_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Appetizer" />
 
             </com.google.android.material.chip.ChipGroup>
@@ -109,44 +114,51 @@
                 android:id="@+id/dietType_chipGroup"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:checkedChip="@+id/glutenFree_chip"
+                app:checkedChip="@+id/ketogenic_chip"
                 app:selectionRequired="true"
-                app:singleLine="true">
+                app:singleLine="true"
+                app:singleSelection="true">
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/glutenFree_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Gluten Free" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/ketogenic_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Ketogenic" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/vegetarian_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Vegetarian" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/lactoVegetarian_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Lacto Vegetarian" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/vegan_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Vegan" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/ovoVegetarian_chip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/CustomChipStyle"
                     android:text="Ovo Vegatarian" />
 
             </com.google.android.material.chip.ChipGroup>
